@@ -1,11 +1,11 @@
-# Circlys Reservation System
+# Reservation System
 
-Circlys Reservation System is a Node.js application that provides a simple API for managing movie reservations. The API allows you to list movies, check availability for time slots, and reserve time slots.
+Reservation System is a Node.js application that provides a simple API for managing movie reservations. The API allows you to list movies, check availability for time slots, and reserve time slots.
 
 ## Project Structure
 
 ```
-CirclysReservation/
+ReservationBackend/
 │
 ├── src/
 │   ├── api/
@@ -36,8 +36,8 @@ CirclysReservation/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/AmjadWonders/CirclysReservation.git
-   cd CirclysReservation
+   git clone https://github.com/AmjadWonders/ReservationBackend.git
+   cd ReservationBackend
    ```
 
 2. **Install dependencies**
@@ -52,7 +52,7 @@ CirclysReservation/
 4. **Configure environment variables**
    Create a `.env` file in the root directory with the following content:
    ```
-   MONGODB_URI=mongodb://0.0.0.0:27017/circlysreservation
+   MONGODB_URI=mongodb://0.0.0.0:27017/reservationbackend
    PORT=3000
    ```
 
@@ -102,7 +102,7 @@ CirclysReservation/
 
 * **Database Configuration**: Located in `src/config/db.js`. Configure your MongoDB connection settings here.
 * **Error Handling Middleware**: Located in `src/middleware/errorHandler.js`. Customize error handling as needed.
-* **Express App Setup**: Located in `src/app.js`. Configure the CirclysReservation app and middleware here.
+* **Express App Setup**: Located in `src/app.js`. Configure the ReservationBackend app and middleware here.
 * **Server Startup**: Located in `src/server.js`. This file is responsible for starting the server.
 
 ## Contributing
